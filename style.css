@@ -1,0 +1,274 @@
+/*Style généraux*/
+
+ body {
+ 	background-color:#cf0000;
+ 	font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+   
+    }
+    
+  hr {
+	display:none;
+}
+
+h1, h2, h3, h4 {
+	font-family:"times new roman", times, serif
+	}
+
+h1{
+	font-size:36px;
+	background: transparent url(images/bandeau.jpg) no-repeat ;
+	width:750px !important;
+	width:754px; /* width pour IE*/
+	height:100px;
+	padding:0;
+	margin:0 auto;
+	border:2px solid #000;
+}
+
+
+h1 span {
+	display:none;
+	}
+	
+h2 {
+	font-size:34px;
+	font-weight:bold;
+	color:#000000;
+	padding-top:15px;
+	text-align:center;
+	clear:both;
+	}
+	
+h3 {
+	font-size:20px;
+	padding:0;
+	margin:5px;
+	}
+
+h4 {
+	font-size:15px;
+	margin:0;
+	padding:0 0 5px 0;
+	}
+
+p {
+	text-align: justify;
+	margin:0 0 5px 0;
+	padding:2px;
+	}
+
+.position_image_droite {
+	float:right;
+	padding:0 2px;
+	margin:1px;
+	}
+	
+.position_image_gauche{
+	clear:both;
+	float:left;
+	margin:5px;
+	}
+	
+a:link {
+	color: #cf0000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #cf0000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #cc0000;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+ul{	margin:5px 0 0 0;
+	padding:0;	list-style-type: none;	
+}
+
+li {
+	padding:0;
+	}
+	
+
+/*blocs principaux*/
+
+#conteneur {
+	width: 750px !important;
+	width:754px; /*width pour IE*/
+	text-align:left;
+	margin: 0px auto;
+	padding: 2px;
+	background-image:url(images/toc.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color:#fff;
+}
+
+
+
+/* bloc menu */
+
+#menu{	font-size:17px;
+	color:#CC3333;
+	margin:5px;	}
+#menu ul{	margin:0px 165px;
+	padding:0px;
+	text-align:center;
+	}
+	#menu li{	display:block;	float:left;
+	padding:0px;
+	margin:0;
+	}
+
+.drapeaurouge {
+	width: 80px;
+	height: 80px;
+	border:1px solid #cf0000;;	
+}
+
+/*bloc contenu*/
+#contenu{
+	clear:both;
+	}
+		
+/*bloc validator*/
+
+#validator {
+	float:right;
+	height:31px;	width:88;
+	border:0;
+	margin:2px;
+}
+
+/*bloc bas de page*/
+#basdepage {
+	clear:both;
+	text-align:center;
+	font-size:11px;
+	}
+	
+/*bloc page générique*/
+
+#fiche_technique {
+	float:left;
+	padding:0px;
+	margin:0 0 0 100px ;
+	}
+	
+#interpretation {
+	clear:both;
+	float:left;
+	padding:0;
+	margin:10px 0 0 100px;
+}
+
+#equipe_technique {
+	float:right;
+	margin:10px 100px;
+	padding:0;
+}
+	
+#affiche1 {
+	float:right;
+	padding:0 2px;
+	margin: 0 100px 5px 0;
+	}
+
+#affiche2 {
+	clear:both;
+	float:left;
+	padding:0 2px;
+	margin: 0 0 0 100px;
+	}
+
+#affiche3 {
+	float:right;
+	padding:0 2px;
+	margin:10px 100px 10px 0;
+	}
+
+.generique  {
+	font-size:20px;
+	padding:0;
+	margin:0;
+	}
+	
+/*bloc synopsis*/
+
+	
+#colonne1 {
+	float:left;
+	text-align:justify;
+	width:365px;
+	margin:0 2px;
+	padding:0;
+	}
+	
+#colonne2 {
+	float: right;
+	text-align:justify;
+	width:365px;
+	margin:2px 5px;
+	padding:0;
+	}
+	
+.image_gauche_synopsis {
+	margin:5px;
+	}
+	
+/*bloc page loach, son oeuvre*/
+#filmographie {
+	clear:both;
+	text-align:center;
+	}
+
+#onthebbc {
+	float:left;
+	width:350px !important;
+	width:370px /*width pour IE*/
+	padding:10px;
+	}
+	
+#ensalle {
+	width:350px !important;
+	width:370px /*width pour IE*/
+	padding:10px;
+	float:right;
+	}
+	
+/* bloc page extrait */
+
+#contexte {
+
+text-align:justify;
+width: 220px;
+margin: 110px 5px 30px 5px;
+padding:5px;
+}
+
+#video {
+	float:right;
+	padding:0 2px;
+	margin:110px 5px 30px 5px;
+	}
+
+
+/*bloc page un livre deux films*/
+
+#espoir {
+	clear:both;
+	}
